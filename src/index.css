@@ -1,3 +1,17 @@
+@font-face {
+	font-family: 'Inter';
+	src:
+		url('./Assets/Fonts/Inter/static/Inter-Black.ttf') format('ttf'),
+		url('./Assets/Fonts/Inter/static/Inter-Bold.ttf') format('ttf'),
+		url('./Assets/Fonts/Inter/static/Inter-ExtraBold.ttf') format('ttf'),
+		url('./Assets/Fonts/Inter/static/Inter-ExtraLight.ttf') format('ttf'),
+		url('./Assets/Fonts/Inter/static/Inter-Light.ttf') format('ttf'),
+		url('./Assets/Fonts/Inter/static/Inter-Medium.ttf') format('ttf'),
+		url('./Assets/Fonts/Inter/static/Inter-Regular.ttf') format('ttf'),
+		url('./Assets/Fonts/Inter/static/Inter-SemiBold.ttf') format('ttf'),
+		url('./Assets/Fonts/Inter/static/Inter-Thin.ttf') format('ttf');
+}
+
 body {
 	box-sizing: border-box;
 	max-width: 414px;
@@ -6,8 +20,6 @@ body {
 	border: 1px solid black;
 }
 
-h1 {
-}
+h1 {}
 
-h2 {
-}
+h2 {}
