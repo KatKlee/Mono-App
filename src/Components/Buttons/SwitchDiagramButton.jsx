@@ -1,3 +1,5 @@
+import styles from './SwitchDiagramButton.module.css';
+
 const SwitchDiagramButton = (props) => {
 	return <></>;
 };

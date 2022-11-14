@@ -1,3 +1,5 @@
+import styles from './SubmenuButton.module.css';
+
 const SubmenuButton = (props) => {
 	return <></>;
 };
