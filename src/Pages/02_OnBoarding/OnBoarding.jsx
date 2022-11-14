@@ -1,13 +1,12 @@
+import OnboardingStart from '../../Components/OnboardingStart';
 import styles from './OnBoarding.module.css';
 
 const OnBoarding = () => {
 	return (
 		<>
-			<p>Start</p>
-			<p>Login</p>
-			<p>Sign Up</p>
+			<OnboardingStart />
 		</>
-	);
-};
+	)
+}
 
-export default OnBoarding;
+export default OnBoarding
