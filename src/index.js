@@ -10,6 +10,10 @@ import TransactionDetails from './Pages/06_TransactionDetails/TransactionDetails
 import Statistics from './Pages/07_Statistics/Statistics';
 import AddTransaction from './Pages/08_AddTransaction/AddTransaction';
 
+// styles
+
+import "./index.css";
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
