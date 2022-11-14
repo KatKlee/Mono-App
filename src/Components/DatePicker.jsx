@@ -1,3 +1,5 @@
+import styles from './DatePicker.module.css'
+
 const DatePicker = (props) => {
 	return <></>;
 };
