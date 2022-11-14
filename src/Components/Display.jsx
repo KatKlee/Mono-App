@@ -1,3 +1,5 @@
+import styles from './Display.module.css'
+
 const Display = (props) => {
 	return <></>;
 };
