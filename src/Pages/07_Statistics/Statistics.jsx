@@ -1,9 +1,11 @@
-const Statistics = () => {
-    return (
-        <>
-            <p>Statistiken</p>
-        </>
-    )
-}
+import styles from './Statistics.module.css';
 
-export default Statistics
+const Statistics = () => {
+	return (
+		<>
+			<p>Statistiken</p>
+		</>
+	);
+};
+
+export default Statistics;

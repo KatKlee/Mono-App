@@ -1,9 +1,11 @@
-const TransactionDetails = () => {
-    return (
-        <>
-            <p>Transaction Details</p>
-        </>
-    )
-}
+import styles from './TransactionDetails.module.css';
 
-export default TransactionDetails
+const TransactionDetails = () => {
+	return (
+		<>
+			<p>Transaction Details</p>
+		</>
+	);
+};
+
+export default TransactionDetails;

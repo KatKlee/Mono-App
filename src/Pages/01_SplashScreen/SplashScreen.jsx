@@ -1,9 +1,11 @@
-const SplashScreen = () => {
-    return (
-        <>
-            <p>Der Splash Screen</p>
-        </>
-    )
-}
+import styles from './SplashScreen.module.css';
 
-export default SplashScreen
+const SplashScreen = () => {
+	return (
+		<>
+			<p>Der Splash Screen</p>
+		</>
+	);
+};
+
+export default SplashScreen;

@@ -1,9 +1,11 @@
-const Homepage = () => {
-    return (
-        <>
-            <p>Hier ist unsere Homepage mit der Übersicht</p>
-        </>
-    )
-}
+import styles from './Homepage.module.css';
 
-export default Homepage
+const Homepage = () => {
+	return (
+		<>
+			<p>Hier ist unsere Homepage mit der Übersicht</p>
+		</>
+	);
+};
+
+export default Homepage;

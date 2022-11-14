@@ -1,9 +1,11 @@
-const Profile = () => {
-    return (
-        <>
-            <p>Unser Profil</p>
-        </>
-    )
-}
+import styles from './Profile.module.css';
 
-export default Profile
+const Profile = () => {
+	return (
+		<>
+			<p>Unser Profil</p>
+		</>
+	);
+};
+
+export default Profile;

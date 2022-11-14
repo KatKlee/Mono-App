@@ -1,9 +1,11 @@
-const Wallet = () => {
-    return (
-        <>
-            <p>Das ist das Wallet</p>
-        </>
-    )
-}
+import styles from './Wallet.module.css';
 
-export default Wallet
+const Wallet = () => {
+	return (
+		<>
+			<p>Das ist das Wallet</p>
+		</>
+	);
+};
+
+export default Wallet;

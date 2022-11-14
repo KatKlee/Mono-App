@@ -1,9 +1,11 @@
-const AddTransaction = () => {
-    return (
-        <>
-            <p>Eine neue Transaktion</p>
-        </>
-    )
-}
+import styles from './AddTransaction.module.css';
 
-export default AddTransaction
+const AddTransaction = () => {
+	return (
+		<>
+			<p>Eine neue Transaktion</p>
+		</>
+	);
+};
+
+export default AddTransaction;
