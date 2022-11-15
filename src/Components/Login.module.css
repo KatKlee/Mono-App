@@ -1,0 +1,19 @@
+.main {
+    height: 896px;
+    background-image: url('../Assets/Images/background_login_signup.png');
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+
+.headline {
+    font-family: 'Inter';
+    font-weight: 700;
+    text-align: center;
+    font-size: 36px;
+    line-height: 38px;
+    color: #2B47FC;
+    margin-block-start: 0;
+    margin-block-end: 1.2em;
+    padding: 40px 70px;
+}
