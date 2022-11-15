@@ -11,7 +11,6 @@ import Statistics from './Pages/07_Statistics/Statistics';
 import AddTransaction from './Pages/08_AddTransaction/AddTransaction';
 
 // styles
-
 import "./index.css";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
