@@ -1,4 +1,4 @@
-.button {
+.style {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -6,9 +6,9 @@
     padding: 10px 20px;
     margin: 0 auto;
     gap: 10px;
-    width: 300px;
-    height: 58px;
-    top: 591px;
+    width: 358px;
+    height: 64px;
+    top: 745px;
     background: linear-gradient(180deg, #8898FF -17.19%, #2B47FC 123.44%);
     border-radius: 40px;
     border-style: none;

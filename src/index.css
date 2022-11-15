@@ -1,15 +1,55 @@
 @font-face {
 	font-family: 'Inter';
-	src:
-		url('./Assets/Fonts/Inter/static/Inter-Black.ttf') format('ttf'),
-		url('./Assets/Fonts/Inter/static/Inter-Bold.ttf') format('ttf'),
-		url('./Assets/Fonts/Inter/static/Inter-ExtraBold.ttf') format('ttf'),
-		url('./Assets/Fonts/Inter/static/Inter-ExtraLight.ttf') format('ttf'),
-		url('./Assets/Fonts/Inter/static/Inter-Light.ttf') format('ttf'),
-		url('./Assets/Fonts/Inter/static/Inter-Medium.ttf') format('ttf'),
-		url('./Assets/Fonts/Inter/static/Inter-Regular.ttf') format('ttf'),
-		url('./Assets/Fonts/Inter/static/Inter-SemiBold.ttf') format('ttf'),
-		url('./Assets/Fonts/Inter/static/Inter-Thin.ttf') format('ttf');
+	src: url('./Assets/Fonts/Inter/static/Inter-Black.ttf');
+	font-weight: 900;
+}
+
+@font-face {
+	font-family: 'Inter';
+	src: url('./Assets/Fonts/Inter/static/Inter-ExtraBold.ttf');
+	font-weight: 800;
+}
+
+@font-face {
+	font-family: 'Inter';
+	src: url('./Assets/Fonts/Inter/static/Inter-Bold.ttf');
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: 'Inter';
+	src: url('./Assets/Fonts/Inter/static/Inter-SemiBold.ttf');
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: 'Inter';
+	src: url('./Assets/Fonts/Inter/static/Inter-Medium.ttf');
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: 'Inter';
+	src: url('./Assets/Fonts/Inter/static/Inter-Regular.ttf');
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'Inter';
+	src: url('./Assets/Fonts/Inter/static/Inter-Light.ttf');
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: 'Inter';
+	src: url('./Assets/Fonts/Inter/static/Inter-ExtraLight.ttf');
+	font-weight: 200;
+}
+
+@font-face {
+	font-family: 'Inter';
+	src: url('./Assets/Fonts/Inter/static/Inter-Thin.ttf');
+	font-weight: 100;
 }
 
 body {
@@ -19,7 +59,3 @@ body {
 	padding: 0;
 	border: 1px solid black;
 }
-
-h1 {}
-
-h2 {}
