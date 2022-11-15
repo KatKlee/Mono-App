@@ -14,3 +14,14 @@
     color: #666666;
     margin-bottom: 10px;
 }
+
+.inputfield {
+    padding: 18px 15px;
+    border: 1px solid #DDDDDD;
+    border-radius: 8px;
+    border-style: dashed;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 14px;
+    color: #2B47FC;
+}
