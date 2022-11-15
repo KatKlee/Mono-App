@@ -1,0 +1,16 @@
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    width: 88%;
+    margin: 25px auto;
+    align-content: center;
+}
+
+.label {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.06em;
+    color: #666666;
+    margin-bottom: 10px;
+}

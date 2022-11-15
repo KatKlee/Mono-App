@@ -17,6 +17,7 @@ const LoginForm = () => {
 				</div>
 			</article>
 			<Button text={'Login'} />
+			{/* OnClick-Funktion für Button mit objekt für Daten, oder onChange auf inputields mit States */}
 		</section>
 	)
 }

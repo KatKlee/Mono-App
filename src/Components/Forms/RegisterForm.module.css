@@ -1,0 +1,47 @@
+.section {
+    width: 358px;
+    height: 500px;
+    margin: 0 auto;
+
+    background: #FFFFFF;
+    box-shadow: 0px 22px 35px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    width: 88%;
+    margin: 25px auto;
+    align-content: center;
+}
+
+.label {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.06em;
+    color: #666666;
+    margin-bottom: 10px;
+}
+
+.inputfield {
+    padding: 18px 15px;
+    border: 1px solid #DDDDDD;
+    border-radius: 8px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 14px;
+    color: #2B47FC;
+}
+
+.inputfield::placeholder {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #666666;
+}

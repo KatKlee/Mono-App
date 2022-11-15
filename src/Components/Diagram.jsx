@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+/* import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom';
 import { Line } from '@ant-design/plots';
 import SwitchDiagramButton from "./Buttons/SwitchDiagramButton";
@@ -112,3 +112,4 @@ const DemoLine = () => {
 
 export default DemoLine;
 
+ */
