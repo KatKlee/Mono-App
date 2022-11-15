@@ -1,9 +1,14 @@
+import Display from '../../Components/Display';
+import Navigation from '../../Components/Navigation/Navigation';
+
 import styles from './Homepage.module.css';
 
-const Homepage = () => {
+const Homepage = (props) => {
 	return (
 		<>
-			<p>Hier ist unsere Homepage mit der Übersicht</p>
+			<Display />
+			<p>hallo</p>
+			<Navigation></Navigation>
 		</>
 	);
 };

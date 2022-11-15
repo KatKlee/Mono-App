@@ -10,8 +10,6 @@ import TransactionDetails from './Pages/06_TransactionDetails/TransactionDetails
 import Statistics from './Pages/07_Statistics/Statistics';
 import AddTransaction from './Pages/08_AddTransaction/AddTransaction';
 
-
-
 import './index.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

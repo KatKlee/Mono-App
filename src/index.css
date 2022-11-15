@@ -58,4 +58,11 @@ body {
 	margin: 0 auto;
 	padding: 0;
 	border: 1px solid black;
+	font-family: 'Inter';
+}
+
+h1 {
+}
+
+h2 {
 }
