@@ -7,15 +7,15 @@ const RegisterForm = () => {
 		<section className={styles.section}>
 			<article>
 				<div className={styles.inputContainer}>
-					<label className={styles.label} for="fullname">NAME</label>
+					<label className={styles.label} htmlFor="fullname">NAME</label>
 					<input className={styles.inputfield} type="text" name="fullname" id="fullname" placeholder='Full Name' />
 				</div>
 				<div className={styles.inputContainer}>
-					<label className={styles.label} for="email">EMAIL</label>
+					<label className={styles.label} htmlFor="email">EMAIL</label>
 					<input className={styles.inputfield} type="email" name="email" id="email" placeholder='E-Mail' />
 				</div>
 				<div className={styles.inputContainer}>
-					<label className={styles.label} for="password">PASSWORD</label>
+					<label className={styles.label} htmlFor="password">PASSWORD</label>
 					<input className={styles.inputfield} type="password" name="password" id="password" placeholder='Password' />
 				</div>
 				<Upload />

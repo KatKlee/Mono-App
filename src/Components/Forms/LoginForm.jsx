@@ -8,11 +8,11 @@ const LoginForm = () => {
 			<img className={styles.imageMonoMan} src={MonoManLogin} alt="" />
 			<article className={styles.article}>
 				<div className={styles.inputContainer}>
-					<label className={styles.label} for="email">EMAIL</label>
+					<label className={styles.label} htmlFor="email">EMAIL</label>
 					<input className={styles.inputfield} type="email" name="" id="" placeholder='E-Mail' />
 				</div>
 				<div className={styles.inputContainer}>
-					<label className={styles.label} for="password">PASSWORD</label>
+					<label className={styles.label} htmlFor="password">PASSWORD</label>
 					<input className={styles.inputfield} type="password" name="" id="" placeholder='Password' />
 				</div>
 			</article>

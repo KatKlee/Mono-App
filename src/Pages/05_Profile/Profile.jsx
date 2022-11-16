@@ -3,10 +3,10 @@ import styles from './Profile.module.css';
 
 const Profile = () => {
 	return (
-		<>
+		<main className={styles.main}>
 			<p>Unser Profil</p>
 			<Navigation></Navigation>
-		</>
+		</main>
 	);
 };
 

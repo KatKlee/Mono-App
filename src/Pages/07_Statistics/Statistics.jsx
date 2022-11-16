@@ -6,11 +6,13 @@ import styles from './Statistics.module.css';
 
 const Statistics = () => {
 	return (
-		<section className={styles.statisticContainer}>
-			<h2>Statistics</h2>
-			<DemoLine />
-			<Navigation />
-		</section>
+		<main className={styles.main}>
+			<section className={styles.statisticContainer}>
+				<h2>Statistics</h2>
+				<DemoLine />
+				<Navigation />
+			</section>
+		</main>
 	);
 };
 

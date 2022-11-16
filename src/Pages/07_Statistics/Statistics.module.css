@@ -1,5 +1,9 @@
-.statisticContainer {
-	text-align: center;
+.main {
 	width: 414px;
 	height: 896px;
+	position: relative;
+}
+
+.statisticContainer {
+	text-align: center;
 }
