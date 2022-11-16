@@ -1,6 +1,6 @@
 import styles from './MenuButton.module.css';
 
 const MenuButton = (props) => {
-	return <></>;
+	return <button></button>;
 };
 export default MenuButton;

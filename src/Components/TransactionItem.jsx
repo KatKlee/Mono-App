@@ -1,11 +1,6 @@
 import styles from './TransactionItem.module.css';
 
 const TransactionItem = (props) => {
-	console.log(props);
-	console.log(props.profile_picture);
-	console.log(props.transaction_name);
-	console.log(props.amount);
-
 	return (
 		<div>
 			<p>{props.profile_picture}</p>
@@ -14,4 +9,5 @@ const TransactionItem = (props) => {
 		</div>
 	);
 };
+
 export default TransactionItem;

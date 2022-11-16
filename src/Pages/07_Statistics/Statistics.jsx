@@ -5,11 +5,13 @@ import SwitchDiagramButton from '../../Components/Buttons/SwitchDiagramButton';
 
 const Statistics = () => {
 	return (
-		<div className={styles.statisticContainer}>
-			<h1>Statistics</h1>
-			<DemoLine />
+		<>
+			<div className={styles.statisticContainer}>
+				<h1>Statistics</h1>
+				<DemoLine />
+			</div>
 			<Navigation></Navigation>
-		</div>
+		</>
 	);
 };
 

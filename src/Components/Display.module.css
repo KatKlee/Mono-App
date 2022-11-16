@@ -1,36 +1,63 @@
+.header {
+	width: 414px;
+	height: 287px;
+	background-image: url('../Assets/Images/background_rectangle_darkblue.png');
+	position: relative;
+}
+
+.display {
+	background-color: #ffffff;
+}
+
 .collapsible {
-	background-color: #eee;
-	color: #444;
+	font-weight: 600;
+	color: #ffffff;
 	cursor: pointer;
-	padding: 18px;
-	width: 100%;
 	border: none;
 	text-align: left;
 	outline: none;
-	font-size: 15px;
-}
-
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active,
-.collapsible:hover {
-	background-color: #ccc;
+	position: absolute;
+	width: 374px;
+	height: 201px;
+	left: 20px;
+	top: 155px;
+	background: #2b47fc;
+	border-radius: 20px;
 }
 
 /* Style the collapsible content. Note: hidden by default */
 .content {
 	padding: 0 18px;
-	background-color: white;
 	max-height: 0;
 	overflow: hidden;
 	transition: max-height 0.2s ease-out;
 }
 
 .collapsible:after {
-	content: '\02795'; /* Unicode character for "plus" sign (+) */
-	color: white;
+	content: url('../Assets/Symbols/updownbutton.png');
+	color: #ffffff;
 	margin-left: 5px;
 }
 
 .active:after {
 	content: '\2796'; /* Unicode character for "minus" sign (-) */
+}
+
+.income,
+.expense {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 19.36px;
+	letter-spacing: -5%;
+	color: #ffffff;
+}
+
+.number {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+	text-align: right;
+	letter-spacing: -0.05em;
+	color: #ffffff;
 }
