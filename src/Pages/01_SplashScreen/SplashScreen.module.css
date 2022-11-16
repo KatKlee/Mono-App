@@ -1,0 +1,16 @@
+.main {
+    height: 896px;
+    background: rgb(43, 71, 252);
+    background: linear-gradient(345deg, rgba(43, 71, 252, 1) 10%, rgba(136, 152, 255, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headline {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 50px;
+    color: white;
+    margin-block-start: 0;
+}
