@@ -2,9 +2,9 @@ import styles from './SplashScreen.module.css';
 
 const SplashScreen = () => {
 	return (
-		<>
-			<p>Der Splash Screen</p>
-		</>
+		<main className={styles.main}>
+			<h1 className={styles.headline}>mono</h1>
+		</main>
 	);
 };
 
