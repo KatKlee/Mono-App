@@ -2,25 +2,25 @@ import LogoutButton from './Buttons/LogoutButton';
 import styles from './Display.module.css';
 
 const Display = (props) => {
-	let coll = document.getElementsByClassName('collapsible');
-	let i;
-	for (i = 0; i < coll.length; i++) {
-		coll[i].addEventListener('click', function () {
-			this.classList.toggle('active');
+	// let coll = document.getElementsByClassName('collapsible');
+	// let i;
+	// for (i = 0; i < coll.length; i++) {
+	// 	coll[i].addEventListener('click', function () {
+	// 		this.classList.toggle('active');
 
-			let content = this.nextElementSibling;
+	// 		let content = this.nextElementSibling;
 
-			if (content.style.maxHeight) {
-				content.style.maxHeight = '50px';
-			} else {
-				content.style.maxHeight = content.scrollHeight + 'px';
-			}
-		});
-	}
+	// 		if (content.style.maxHeight) {
+	// 			content.style.maxHeight = Null;
+	// 		} else {
+	// 			content.style.maxHeight = content.scrollHeight + 'px';
+	// 		}
+	// 	});
+	// }
 
 	return (
 		<>
-			<header className={styles.header}>
+			<section>
 				<div>
 					<button className={styles.collapsible}>Total Balance</button>
 					<LogoutButton></LogoutButton>
@@ -35,7 +35,7 @@ const Display = (props) => {
 						<p className={styles.number}>TODO</p>
 					</div>
 				</div>
-			</header>
+			</section>
 			<section className={styles.display}></section>
 		</>
 	);

@@ -3,11 +3,11 @@ import Navigation from '../../Components/Navigation/Navigation';
 
 import styles from './Homepage.module.css';
 
-const Homepage = (props) => {
+const Homepage = () => {
 	return (
-		<section className={styles.home}>
-			<Display></Display>
-			<Navigation></Navigation>
+		<section className={styles.main}>
+			<Display />
+			<Navigation />
 		</section>
 	);
 };

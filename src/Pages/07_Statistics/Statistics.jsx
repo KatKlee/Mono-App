@@ -1,17 +1,16 @@
 import Navigation from '../../Components/Navigation/Navigation';
-import styles from './Statistics.module.css';
 import DemoLine from '../../Components/Diagram';
 import SwitchDiagramButton from '../../Components/Buttons/SwitchDiagramButton';
 
+import styles from './Statistics.module.css';
+
 const Statistics = () => {
 	return (
-		<>
-			<div className={styles.statisticContainer}>
-				<h1>Statistics</h1>
-				<DemoLine />
-			</div>
-			<Navigation></Navigation>
-		</>
+		<section className={styles.statisticContainer}>
+			<h2>Statistics</h2>
+			<DemoLine />
+			<Navigation />
+		</section>
 	);
 };
 

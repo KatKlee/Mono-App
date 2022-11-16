@@ -8,25 +8,15 @@ import Icon_Profile from '../../Assets/Symbols/icon_profile.png';
 
 import styles from './Navigation.module.css';
 
-const Navigation = (props) => {
+const Navigation = () => {
 	return (
-		<div>
-			<MenuButton>
-				<img src={Icon_Home} />
-			</MenuButton>
-			<MenuButton>
-				<img src={Icon_Statistics} />
-			</MenuButton>
-			<Submenu>
-				<img src={Icon_Add} />
-			</Submenu>
-			<MenuButton>
-				<img src={Icon_Wallet} />
-			</MenuButton>
-			<MenuButton>
-				<img src={Icon_Profile} />
-			</MenuButton>
-		</div>
+		<section className={styles.nav}>
+			<MenuButton img={Icon_Home} link={'/home'} />
+			<MenuButton img={Icon_Statistics} link={'/statistics'} />
+			<Submenu img={Icon_Add} link={'/addtransaction'} />
+			<MenuButton img={Icon_Wallet} link={'/wallet'} />
+			<MenuButton img={Icon_Profile} link={'/profile'} />
+		</section>
 	);
 };
 

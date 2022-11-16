@@ -1,0 +1,15 @@
+.nav {
+	height: 81px;
+	width: 92%;
+	display: flex;
+	overflow: hidden;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 11%;
+	position: absolute;
+	bottom: 15px;
+	background: #ffffff;
+	box-shadow: 0px -2px 25px rgb(0 0 0 / 8%);
+	border-radius: 46px;
+}
