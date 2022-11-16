@@ -23,56 +23,6 @@ const DemoLine = () => {
 
 	const data = [
 		{
-<<<<<<< HEAD
-			"Date": "Jan",
-			"scales": 1998
-		},
-		{
-			"Date": "Feb",
-			"scales": 1850
-		},
-		{
-			"Date": "Mar",
-			"scales": 1720
-		},
-		{
-			"Date": "Apr",
-			"scales": 1818
-		},
-		{
-			"Date": "May",
-			"scales": 1920
-		},
-		{
-			"Date": "Jun",
-			"scales": 1802
-		},
-		{
-			"Date": "Jul",
-			"scales": 1945
-		},
-		{
-			"Date": "Aug",
-			"scales": 1856
-		},
-		{
-			"Date": "Sep",
-			"scales": 2107
-		},
-		{
-			"Date": "Oct",
-			"scales": 2140
-		},
-		{
-			"Date": "Nov",
-			"scales": 2311
-		},
-		{
-			"Date": "Dez",
-			"scales": 1972
-		},
-	]
-=======
 			Date: 'Jan',
 			scales: 1998,
 		},
@@ -121,7 +71,6 @@ const DemoLine = () => {
 			scales: 1972,
 		},
 	];
->>>>>>> Alexandra
 
 	useEffect(() => {
 		asyncFetch();
@@ -133,11 +82,7 @@ const DemoLine = () => {
 		console.log('data from server', data);
 		setData1(data);
 		switch (diagramState) {
-<<<<<<< HEAD
-			case "Month":
-=======
 			case 'Month':
->>>>>>> Alexandra
 				const date = new Date();
 				const month = date.getMonth() + 1;
 				console.log('actual month', month);
