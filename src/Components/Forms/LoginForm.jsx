@@ -3,6 +3,9 @@ import styles from './LoginForm.module.css';
 import MonoManLogin from '../../Assets/Images/MonoMan_Login.png'
 
 const LoginForm = () => {
+
+
+
 	return (
 		<section className={styles.section}>
 			<img className={styles.imageMonoMan} src={MonoManLogin} alt="" />
