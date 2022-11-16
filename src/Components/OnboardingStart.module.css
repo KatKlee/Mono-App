@@ -1,0 +1,22 @@
+.main {
+    height: 896px;
+    /* background-image: url('../Assets/Images/Ellipsen.png'), linear-gradient(5deg, rgba(255, 255, 255, 1) 35%, rgba(136, 152, 255, 1) 35%); */
+    background-image: url('../Assets/Images/background_ellipsen.png');
+    background-repeat: no-repeat;
+    /* How to smoothen the border? */
+}
+
+.monoManImage {
+    margin-top: 130px;
+}
+
+.headline {
+    font-family: 'Inter';
+    font-weight: 700;
+    text-align: center;
+    font-size: 36px;
+    line-height: 38px;
+    color: #2B47FC;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.83em;
+}

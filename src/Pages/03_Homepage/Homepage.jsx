@@ -5,11 +5,10 @@ import styles from './Homepage.module.css';
 
 const Homepage = (props) => {
 	return (
-		<>
-			<Display />
-			<p>hallo</p>
+		<section className={styles.home}>
+			<Display></Display>
 			<Navigation></Navigation>
-		</>
+		</section>
 	);
 };
 
