@@ -1,0 +1,27 @@
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    width: 88%;
+    margin: 25px auto;
+    align-content: center;
+}
+
+.label {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.06em;
+    color: #666666;
+    margin-bottom: 10px;
+}
+
+.inputfield {
+    padding: 18px 15px;
+    border: 1px solid #DDDDDD;
+    border-radius: 8px;
+    border-style: dashed;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 14px;
+    color: #2B47FC;
+}
