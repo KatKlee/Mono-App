@@ -22,7 +22,7 @@ root.render(
 				<Route path="/home" element={<Homepage />} />
 				<Route path="/wallet" element={<Wallet />} />
 				<Route path="/profile" element={<Profile />} />
-				<Route path="/transaction/" element={<TransactionDetails />} />
+				<Route path="/transaction" element={<TransactionDetails />} />
 				<Route path="/statistics" element={<Statistics />} />
 				<Route path="/addtransaction" element={<AddTransaction />} />
 			</Routes>

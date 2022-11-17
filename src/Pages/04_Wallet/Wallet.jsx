@@ -13,7 +13,7 @@ const Wallet = () => {
 			{/* ------------- Page Header ------------- */}
 			<section className={styles.headerSection}>
 				<BackButton />
-				<h3>Wallet</h3>
+				<h3 className={styles.headline}>Wallet</h3>
 				<BackButton /> {/* Insert Logout Button instead */}
 			</section>
 

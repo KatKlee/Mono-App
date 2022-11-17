@@ -6,4 +6,135 @@
 	flex-direction: column;
 	align-items: center;
 	flex-wrap: nowrap;
+	background-image: url('../../Assets/Images/background_rectangle_blue.png');
+	background-repeat: no-repeat;
+}
+
+.headerSection {
+	width: 350px;
+	display: flex;
+	justify-content: space-between;
+	margin: 85px 0 38px 0;
+}
+
+.headline {
+	color: white;
+	font-family: 'Inter';
+	font-weight: 500;
+	font-size: 18px;
+	margin-block-start: 0;
+}
+
+.container {
+	width: 414px;
+	height: 731px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 30px 30px 0px 0px;
+}
+
+.headerContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin-top: 35px;
+}
+
+.imageContainer {
+	width: 70px;
+	height: 70px;
+	background: black;
+	border-radius: 70px;
+	margin: 0 auto;
+}
+
+.transactionTypeIncome {
+	font-family: 'Inter';
+	font-weight: 500;
+	font-size: 14px;
+	color: #25A969;
+	text-align: center;
+	padding: 5px 15px;
+	background: rgba(37, 169, 105, 0.2);
+	border-radius: 40px;
+	margin-block-end: 0.5em;
+}
+
+.transactionTypeExpense {
+	font-family: 'Inter';
+	font-weight: 500;
+	font-size: 14px;
+	color: #F95B51;
+	text-align: center;
+	padding: 5px 15px;
+	background: rgba(249, 91, 81, 0.1);
+	border-radius: 40px;
+	margin-block-end: 0.5em;
+}
+
+.transactionAmount {
+	font-family: 'Inter';
+	font-weight: 600;
+	font-size: 24px;
+	letter-spacing: -0.04em;
+	color: #000000;
+	text-align: center;
+	margin-block-start: 0;
+}
+
+.listContainer {
+	width: 354px;
+}
+
+.listItemsContainer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.headlineTransactionDetailsList {
+	font-family: 'Inter';
+	font-weight: 500;
+	font-size: 18px;
+	letter-spacing: -0.02em;
+	color: #000000;
+	margin-block-start: 0.6em;
+	margin-block-end: 1em;
+}
+
+.listItemCategory {
+	font-family: 'Inter';
+	font-weight: 500;
+	font-size: 16px;
+	letter-spacing: -0.02em;
+	color: #666666;
+	margin-block-start: 0.35em;
+	margin-block-end: 0.35em;
+}
+
+.listItemInput {
+	font-family: 'Inter';
+	font-weight: 500;
+	font-size: 16px;
+	text-align: right;
+	letter-spacing: -0.02em;
+	text-transform: capitalize;
+	color: #000000;
+	margin-block-start: 0.3em;
+	margin-block-end: 0.3em;
+}
+
+.listTransactionTypeIncome {
+	color: #25A969;
+}
+
+.listTransactionTypeExpense {
+	color: #F95B51;
+}
+
+hr {
+	border: 1px solid #DDDDDD
 }
