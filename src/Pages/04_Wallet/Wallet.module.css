@@ -9,3 +9,78 @@
 	background-image: url('../../Assets/Images/background_rectangle_blue.png');
 	background-repeat: no-repeat;
 }
+
+.headerSection {
+	width: 350px;
+	display: flex;
+	justify-content: space-between;
+	margin: 85px 0 38px 0;
+}
+
+h3 {
+	color: white;
+	font-family: 'Inter';
+	font-weight: 500;
+	font-size: 18px;
+	margin-block-start: 0;
+}
+
+.walletDetailsSection {
+	width: 414px;
+	height: 731px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 30px 30px 0px 0px;
+}
+
+.totalBalance {
+	font-family: 'Inter';
+	font-weight: 400;
+	font-size: 16px;
+	color: #666666;
+	margin-block-start: 3em;
+	margin-block-end: 1em;
+
+}
+
+.totalBalanceAmount {
+	font-family: 'Inter';
+	font-weight: 700;
+	font-size: 30px;
+	letter-spacing: -0.05em;
+	color: #222222;
+	margin-block-start: 0em;
+	margin-block-end: 1.3em;
+}
+
+.buttonContainer {
+	display: flex;
+	gap: 30px;
+}
+
+.buttonStyle {
+	width: 60px;
+	height: 60px;
+	border: 1px solid #2B47FC;
+	border-radius: 60px;
+	background-color: white;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.iconStyle {
+	margin: 0 auto;
+}
+
+.iconText {
+	font-family: 'Inter';
+	font-weight: 400;
+	font-size: 14px;
+	color: #222222;
+	text-align: center;
+	margin-block-start: 0.6em;
+}
