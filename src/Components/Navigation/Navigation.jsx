@@ -13,7 +13,7 @@ const Navigation = () => {
 		<section className={styles.nav}>
 			<MenuButton img={Icon_Home} link={'/home'} />
 			<MenuButton img={Icon_Statistics} link={'/statistics'} />
-			<Submenu img={Icon_Add} link={'/addtransaction'} />
+			<MenuButton img={Icon_Add} link={'/addtransaction'} />
 			<MenuButton img={Icon_Wallet} link={'/wallet'} />
 			<MenuButton img={Icon_Profile} link={'/profile'} />
 		</section>

@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import styles from './MenuButton.module.css';
 
 const MenuButton = (props) => {
 	return (

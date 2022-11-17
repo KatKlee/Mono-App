@@ -9,22 +9,22 @@
 	border: none;
 	text-align: left;
 	outline: none;
-	position: absolute;
+	/* position: absolute; */
 	width: 374px;
-
+	/* 
 	left: 20px;
-	top: 155px;
+	top: 155px; */
 	background: #2b47fc;
 	border-radius: 20px;
 }
 
 /* Style the collapsible content. Note: hidden by default */
-.content {
+/* .content {
 	padding: 0 18px;
 	max-height: 0;
 	overflow: hidden;
 	transition: max-height 0.2s ease-out;
-}
+} */
 
 .collapsible:after {
 	content: url('../Assets/Symbols/updownbutton.png');

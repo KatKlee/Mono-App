@@ -5,7 +5,7 @@ const AddTransaction = () => {
 	return (
 		<>
 			<p>Eine neue Transaktion</p>
-			<Navigation></Navigation>
+			<Navigation />
 		</>
 	);
 };

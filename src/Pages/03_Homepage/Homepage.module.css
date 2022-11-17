@@ -1,6 +1,11 @@
 .main {
 	width: 414px;
 	height: 896px;
-	background-image: url('../../Assets/Images/background_rectangle_darkblue.png') no-repeat;
+	background-image: url('../../Assets/Images/background_rectangle_darkblue.png');
+	background-repeat: no-repeat;
 	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-wrap: nowrap;
 }
