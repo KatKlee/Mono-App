@@ -7,8 +7,8 @@ const OnBoarding = () => {
 	return (
 		<>
 			{/* <OnboardingStart /> */}
-			{/* <Login /> */}
-			<SignUp />
+			<Login />
+			{/* <SignUp /> */}
 		</>
 	)
 }

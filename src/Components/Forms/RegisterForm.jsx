@@ -4,7 +4,6 @@ import Upload from '../Upload';
 import styles from './RegisterForm.module.css';
 
 const RegisterForm = () => {
-
 	const [fullname, setFullname] = useState('')
 	const [email, setEmail] = useState('')
 	const [password, setPassword] = useState('')
@@ -33,22 +32,22 @@ const RegisterForm = () => {
 			img: imgBase64
 		}
 
-		/* const response = await fetch('', {
+		const response = await fetch('http://localhost:7777/users/register', {
 			method: 'POST',
 			headers: {
 				'content-type': 'application/json'
 			},
 			body: JSON.stringify(user)
-		}) */
+		})
 
-		/* const data = await response.json()
+		const data = await response.json()
 		if (data.state) {
 			setFullname('')
 			setEmail('')
 			setPassword('')
 			setImgBase64('')
 		}
-		console.log(data) */
+		console.log(data)
 		console.log(fullname)
 		console.log(email)
 		console.log(password)
