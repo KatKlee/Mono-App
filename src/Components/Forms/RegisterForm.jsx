@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Button from '../Buttons/Button';
 import Upload from '../Upload';
 import styles from './RegisterForm.module.css';
@@ -9,12 +9,28 @@ const RegisterForm = () => {
 	const [email, setEmail] = useState('')
 	const [password, setPassword] = useState('')
 	const [file, setFile] = useState(null)
+	const [imgBase64, setImgBase64] = useState('')
+
+	useEffect(() => {
+		if (file) {
+			/* console.log(file.size) */
+			const reader = new FileReader()
+			reader.onload = handleReaderLoaded
+			reader.readAsDataURL(file)
+		}
+	}, [file])
+
+	const handleReaderLoaded = (event) => {
+		setImgBase64(event.target.result)
+	}
+
 
 	const registerUser = async () => {
 		const user = {
 			name: fullname,
 			email: email,
-			password: password
+			password: password,
+			img: imgBase64
 		}
 
 		/* const response = await fetch('', {
@@ -26,10 +42,17 @@ const RegisterForm = () => {
 		}) */
 
 		/* const data = await response.json()
+		if (data.state) {
+			setFullname('')
+			setEmail('')
+			setPassword('')
+			setImgBase64('')
+		}
 		console.log(data) */
 		console.log(fullname)
 		console.log(email)
 		console.log(password)
+		console.log(imgBase64)
 	}
 
 	return (
@@ -47,7 +70,7 @@ const RegisterForm = () => {
 					<label className={styles.label} htmlFor="password">PASSWORD</label>
 					<input onChange={(e) => setPassword(e.target.value)} className={styles.inputfield} type="password" name="password" id="password" value={password} placeholder='Password' />
 				</div>
-				<Upload onchange={(e) => setFile(e.target.value)} value={file} />
+				<Upload onchange={(e) => setFile(e.target.files[0])} />
 			</article>
 			<Button onclick={registerUser} text={'Sign Up'} />
 		</section>

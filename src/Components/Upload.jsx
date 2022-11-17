@@ -4,7 +4,7 @@ const Upload = (props) => {
 	return (
 		<div className={styles.inputContainer}>
 			<label className={styles.label} htmlFor="profilepic">PROFILE PICTURE</label>
-			<input className={styles.inputfield} type="file" name="" id="" />
+			<input onChange={props.onchange} className={styles.inputfield} type="file" name="" id="" />
 		</div>
 	)
 }
