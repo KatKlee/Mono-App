@@ -6,4 +6,6 @@
 	flex-direction: column;
 	align-items: center;
 	flex-wrap: nowrap;
+	background-image: url('../../Assets/Images/background_rectangle_blue.png');
+	background-repeat: no-repeat;
 }

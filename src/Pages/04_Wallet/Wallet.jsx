@@ -5,7 +5,7 @@ const Wallet = () => {
 	return (
 		<main className={styles.main}>
 			<p>Das ist das Wallet</p>
-			<Navigation></Navigation>
+			<Navigation />
 		</main>
 	);
 };
