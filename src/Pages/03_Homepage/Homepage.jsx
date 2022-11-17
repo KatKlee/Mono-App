@@ -1,14 +1,17 @@
 import Display from '../../Components/Display';
+import FilterButton from '../../Components/Buttons/FilterButton';
 import TransactionList from '../../Components/TransactionList';
 import Navigation from '../../Components/Navigation/Navigation';
-
 import styles from './Homepage.module.css';
 
 const Homepage = () => {
 	return (
 		<section className={styles.main}>
 			<Display />
-			<h2>Transactions History</h2>
+			<div>
+				<h3>Transactions History</h3>
+				<FilterButton text={'See all'} link={'/home'} />
+			</div>
 			<TransactionList />
 			<Navigation />
 		</section>

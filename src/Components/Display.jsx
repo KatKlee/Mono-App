@@ -19,25 +19,22 @@ const Display = (props) => {
 	// }
 
 	return (
-		<>
-			<section>
+		<section className={styles.display}>
+			<div className={styles.display_wrapper}>
 				<div>
-					<button className={styles.collapsible}>Total Balance</button>
-					<LogoutButton></LogoutButton>
+					<button className={styles.display_text_total}>Total Balance</button>
+					<p className={styles.display_number_total}>2,548.00</p>
 				</div>
-				<div className={styles.content}>
-					<div>
-						<p className={styles.income}>Income</p>
-						<p className={styles.number}>TODO</p>
-					</div>
-					<div>
-						<p className={styles.expenses}>Expenses</p>
-						<p className={styles.number}>TODO</p>
-					</div>
-				</div>
-			</section>
-			<section className={styles.display}></section>
-		</>
+				<LogoutButton />
+			</div>
+
+			<div className={styles.display_wrapper}>
+				<p className={styles.display_text_income}>Income</p>
+				<p className={styles.display_text_expenses}>Expenses</p>
+				<p className={styles.display_number_income}>TODO</p>
+				<p className={styles.display_number_expenses}>TODO</p>
+			</div>
+		</section>
 	);
 };
 

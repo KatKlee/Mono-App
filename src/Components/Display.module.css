@@ -1,43 +1,43 @@
 .display {
-	background-color: #ffffff;
-}
-
-.collapsible {
-	font-weight: 600;
-	color: #ffffff;
-	cursor: pointer;
-	border: none;
-	text-align: left;
-	outline: none;
-	/* position: absolute; */
-	width: 374px;
-	/* 
-	left: 20px;
-	top: 155px; */
 	background: #2b47fc;
 	border-radius: 20px;
+	width: 374px;
+	margin-top: 155px;
+	display: grid;
 }
 
-/* Style the collapsible content. Note: hidden by default */
-/* .content {
-	padding: 0 18px;
-	max-height: 0;
-	overflow: hidden;
-	transition: max-height 0.2s ease-out;
-} */
+.display_wrapper {
+	padding: 20px;
+}
 
-.collapsible:after {
+.display_text_total {
+	border: none;
+	background: #2b47fc;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 19px;
+	letter-spacing: -0.02em;
+	color: #ffffff;
+}
+
+.display_text_total:after {
 	content: url('../Assets/Symbols/updownbutton.png');
 	color: #ffffff;
 	margin-left: 5px;
 }
 
-.active:after {
-	content: '\2796'; /* Unicode character for "minus" sign (-) */
+.display_number_total {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 13px;
+	letter-spacing: -0.05em;
+	color: #ffffff;
 }
 
-.income,
-.expense {
+.display_text_income,
+.display_text_expenses {
 	font-size: 16px;
 	font-weight: 500;
 	line-height: 19.36px;
@@ -45,12 +45,22 @@
 	color: #ffffff;
 }
 
-.number {
+.display_number_income,
+.display_number_expenses {
 	font-style: normal;
 	font-weight: 600;
 	font-size: 20px;
 	line-height: 24px;
-	text-align: right;
 	letter-spacing: -0.05em;
 	color: #ffffff;
+}
+
+.display_number_total:before,
+.display_number_income:before,
+.display_number_expenses:before {
+	content: '\$ '; /* Unicode character for "minus" sign (-) */
+}
+
+.active:after {
+	content: '\2796'; /* Unicode character for "minus" sign (-) */
 }
