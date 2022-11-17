@@ -60,3 +60,19 @@ body {
 	padding: 0;
 	border: 1px solid black;
 }
+
+h1 {
+}
+
+h2 {
+}
+
+h3 {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 22px;
+	letter-spacing: -0.02em;
+	text-transform: capitalize;
+	color: #222222;
+}

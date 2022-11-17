@@ -1,3 +1,4 @@
+import BackButton from '../../Components/Buttons/BackButton';
 import Navigation from '../../Components/Navigation/Navigation';
 import styles from './Profile.module.css';
 
