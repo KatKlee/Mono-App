@@ -2,4 +2,14 @@
     width: 414px;
     height: 896px;
     position: relative;
+    background-image: url('../../Assets/Images/background_rectangle_blue.png');
+    background-repeat: no-repeat;
+}
+
+h3 {
+    color: white;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 18px;
+    margin-block-start: 0;
 }
