@@ -7,6 +7,7 @@ import personalProfile from '../../Assets/Images/profile/icon_user_personal-prof
 import messageCenter from '../../Assets/Images/profile/icon_user_message-center.png'
 import loginAndSecurity from '../../Assets/Images/profile/icon_user_login-and-security.png'
 import dataAndPrivacy from '../../Assets/Images/profile/icon_user_data-and-privacy.png'
+import LogoutButton from '../../Components/Buttons/LogoutButton';
 
 
 const Profile = () => {
@@ -14,8 +15,8 @@ const Profile = () => {
 		<main className={styles.main}>
 			<section className={styles.headerSection}>
 				<BackButton />
-				<h3>Profile</h3>
-				<BackButton />
+				<h3 className={styles.headline}>Profile</h3>
+				<LogoutButton />
 			</section>
 			<ProfileUserDetails />
 			<section className={styles.section}>
