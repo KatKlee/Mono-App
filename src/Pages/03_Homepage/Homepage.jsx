@@ -8,9 +8,9 @@ const Homepage = () => {
 	return (
 		<section className={styles.main}>
 			<Display />
-			<div>
-				<h3>Transactions History</h3>
-				<FilterButton text={'See all'} link={'/home'} />
+			<div classList={styles.home_wrapper}>
+				<h3 classList={styles.home_heading}>Transactions History</h3>
+				<FilterButton link={'/home'}>See all</FilterButton>
 			</div>
 			<TransactionList />
 			<Navigation />

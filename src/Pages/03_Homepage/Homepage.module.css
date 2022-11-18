@@ -10,5 +10,12 @@
 	flex-wrap: nowrap;
 }
 
-h3 {
+.home_wrapper {
+	display: flex;
+	width: 374px;
+}
+
+.home_heading {
+	margin-top: 31px;
+	text-align: left;
 }

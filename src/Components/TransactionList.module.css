@@ -1,3 +1,4 @@
-.transactionbody {
-	border: 1px solid black;
+.transactionlist {
+	overflow: hidden;
+	scroll-behavior: smooth;
 }

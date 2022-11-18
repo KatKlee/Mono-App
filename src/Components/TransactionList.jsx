@@ -3,7 +3,8 @@ import styles from './TransactionList.module.css';
 
 const TransactionList = (props) => {
 	return (
-		<section className={styles.transactionbody}>
+		<section className={styles.transactionlist}>
+			<TransactionItem />
 			<TransactionItem />
 			<TransactionItem />
 			<TransactionItem />

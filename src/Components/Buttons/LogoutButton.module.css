@@ -1,7 +1,10 @@
 .logout_button {
 	background: none;
 	border: none;
+	cursor: pointer;
 }
 
 .logout_img {
+	filter: invert(100%);
+	height: 26px;
 }

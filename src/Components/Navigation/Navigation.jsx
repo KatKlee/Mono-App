@@ -1,6 +1,7 @@
 import MenuButton from './MenuButton';
 import Submenu from './Submenu';
 import Icon_Home from '../../Assets/Symbols/icon_home.png';
+import Icon_Home_Active from '../../Assets/Symbols/icon_home_active.png';
 import Icon_Statistics from '../../Assets/Symbols/icon_statistics.png';
 import Icon_Add from '../../Assets/Symbols/icon_add.png';
 import Icon_Wallet from '../../Assets/Symbols/icon_wallet.png';
