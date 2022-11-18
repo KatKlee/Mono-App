@@ -1,5 +1,6 @@
 import styles from './TransactionItem.module.css';
 import IMAGE from '../Assets/Symbols/icon_profile_active.png';
+
 const TransactionItem = (props) => {
 	return (
 		<div className={styles.transactionitem}>
@@ -12,7 +13,7 @@ const TransactionItem = (props) => {
 					<p className={styles.transactionitem_date}>Today</p>
 				</div>
 			</div>
-			<p className={styles.transactionitem_amount}>78,080.00</p>
+			<p className={`${styles.transactionitem_amount} ${styles.transactionitem_amountIncome}`}>78,080.00</p>
 		</div>
 	);
 };

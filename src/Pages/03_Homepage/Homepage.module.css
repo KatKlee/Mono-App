@@ -13,9 +13,12 @@
 .home_wrapper {
 	display: flex;
 	width: 374px;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 31px;
 }
 
 .home_heading {
-	margin-top: 31px;
 	text-align: left;
+	margin-block-end: 0em;
 }
