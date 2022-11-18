@@ -2,6 +2,8 @@ import BackButton from '../../Components/Buttons/BackButton';
 import Navigation from '../../Components/Navigation/Navigation';
 import styles from './TransactionDetails.module.css';
 import updownbuttondark from '../../Assets/Symbols/updownbutton_dark.png'
+import EditButton from '../../Components/Buttons/EditButton';
+import LogoutButton from '../../Components/Buttons/LogoutButton';
 
 const TransactionDetails = () => {
 	return (
@@ -11,7 +13,8 @@ const TransactionDetails = () => {
 			<section className={styles.headerSection}>
 				<BackButton />
 				<h3 className={styles.headline}>Transaction Details</h3>
-				<BackButton /> {/* Insert Logout Button instead */}
+				<LogoutButton />
+				{/* <BackButton /> */} {/* Insert Logout Button instead */}
 			</section>
 
 			{/* Transaction Details */}
@@ -50,20 +53,21 @@ const TransactionDetails = () => {
 						<p className={styles.listItemCategory}>Date</p>
 						<p className={styles.listItemInput}>Feb 30, 2022</p>
 					</div>
-					<hr />
+					<hr className={styles.lineOne} />
 					<div className={styles.listItemsContainer}>
 						<p className={styles.listItemCategory}>Income</p>
 						<p className={styles.listItemInput}>1,285.00</p>
 					</div>
-					<hr />
+					<hr className={styles.lineTwo} />
 					<div className={styles.listItemsContainer}>
 						<p className={styles.listItemCategory}>New Total Balance</p>
 						<p className={styles.listItemInput}>1,285.00</p>
 					</div>
-
 				</article>
 
+				<EditButton />
 			</section>
+
 
 			<Navigation />
 		</main>

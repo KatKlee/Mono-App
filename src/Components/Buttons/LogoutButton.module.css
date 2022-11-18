@@ -2,6 +2,9 @@
 	background: none;
 	border: none;
 	cursor: pointer;
+	padding: 0;
+	display: flex;
+	justify-content: center;
 }
 
 .logout_img {

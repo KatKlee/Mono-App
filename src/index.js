@@ -9,6 +9,7 @@ import Profile from './Pages/05_Profile/Profile';
 import TransactionDetails from './Pages/06_TransactionDetails/TransactionDetails';
 import Statistics from './Pages/07_Statistics/Statistics';
 import AddTransaction from './Pages/08_AddTransaction/AddTransaction';
+import Guard from './Components/Guard';
 
 import './index.css';
 
@@ -19,12 +20,16 @@ root.render(
 			<Routes>
 				<Route path="/" element={<SplashScreen />} />
 				<Route path="/onboarding" element={<OnBoarding />} />
+				{/* <Route element={<Guard />}> */}
+
 				<Route path="/home" element={<Homepage />} />
 				<Route path="/wallet" element={<Wallet />} />
 				<Route path="/profile" element={<Profile />} />
 				<Route path="/transaction" element={<TransactionDetails />} />
 				<Route path="/statistics" element={<Statistics />} />
 				<Route path="/addtransaction" element={<AddTransaction />} />
+
+				{/* </Route> */}
 			</Routes>
 		</BrowserRouter>
 	</React.StrictMode>

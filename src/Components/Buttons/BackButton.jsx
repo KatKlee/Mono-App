@@ -4,7 +4,7 @@ import BackArrow from '../../Assets/Symbols/backbutton.png'
 
 const BackButton = (props) => {
 	return (
-		<Link to={props.link}>
+		<Link className={styles.linkStyle} to={props.link}>
 			<img src={BackArrow} />
 		</Link>
 	);
