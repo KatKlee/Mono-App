@@ -1,14 +1,14 @@
-.menubutton {
-	/* filter: contrast(13%) brightness(118%); */
-	/* 
+/* .menubutton {
+	filter: contrast(13%) brightness(118%);
+	
 	invert(80%)
 	sepia(79%) 
 	saturate(2476%) 
 	hue-rotate(86deg)
 	brightness(118%) 
-	contrast(119%) */
-}
+	contrast(119%)
+} */
 
-.menubutton:active,
+/* .menubutton:active,
 .menubutton:hover {
-}
+} */

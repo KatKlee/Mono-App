@@ -11,7 +11,7 @@ const Submenu = (props) => {
 	return (
 		<>
 			<section className={styles.submenu}>
-				<SubmenuButton img={Icon_Add} onClick={() => setToggle(!toggle)} className={styles.submenu} />
+				<SubmenuButton img={Icon_Add} onClick={() => setToggle(!toggle)} /* className={styles.submenu} */ />
 				{toggle && (
 					<div className={styles.submenu_wrapper}>
 						<MenuButton img={Icon_addIncome} link={'/addtransaction'} />
