@@ -5,14 +5,18 @@ import updownbuttondark from '../../Assets/Symbols/updownbutton_dark.png'
 import EditButton from '../../Components/Buttons/EditButton';
 import LogoutButton from '../../Components/Buttons/LogoutButton';
 import { useEffect, useState } from 'react';
+import { useNavigate, useParams } from 'react-router-dom';
+import DeleteButton from '../../Components/Buttons/DeleteButton';
 
 const TransactionDetails = () => {
 
 	const [transaction, setTransaction] = useState([]) // Array oder Objekt
+	const params = useParams()
+	const nav = useNavigate()
 
 	useEffect(() => {
 		const fetchTransaction = async () => {
-			const transactionData = await fetch('http://localhost:7777/transactions/', {
+			const transactionData = await fetch('http://localhost:7777/transactions/' + params.id, {
 				headers: {
 					'authentication': 'Bearer ' + localStorage.getItem('token')
 				}
@@ -84,7 +88,11 @@ const TransactionDetails = () => {
 					</div>
 				</article>
 
-				<EditButton />
+				<article className={styles.buttonsContainer}>
+					<EditButton nav={nav} />
+					<DeleteButton params={params.id} nav={nav} />
+				</article>
+
 			</section>
 
 

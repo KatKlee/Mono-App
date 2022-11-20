@@ -5,6 +5,7 @@ import styles from './Wallet.module.css';
 import iconAdd from '../../Assets/Symbols/wallet/icon_wallet_add.svg'
 import iconPay from '../../Assets/Symbols/wallet/icon_wallet_pay.svg'
 import iconSend from '../../Assets/Symbols/wallet/icon_wallet_send.svg'
+import FilterButton from '../../Components/Buttons/FilterButton';
 
 const Wallet = () => {
 	return (
@@ -14,7 +15,7 @@ const Wallet = () => {
 			<section className={styles.headerSection}>
 				<BackButton />
 				<h3 className={styles.headline}>Wallet</h3>
-				<LogoutButton /> {/* Insert Logout Button instead */}
+				<LogoutButton />
 			</section>
 
 			{/* ------------- Wallet Details ------------- */}
@@ -48,6 +49,11 @@ const Wallet = () => {
 				</article>
 
 			</section>
+
+			<div className={styles.home_wrapper}>
+				<h3 className={styles.home_heading}>Transactions History</h3>
+				<FilterButton text={'See all'} />
+			</div>
 
 			{/* Insert Transaction History here */}
 

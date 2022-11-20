@@ -1,8 +1,14 @@
 import styles from './EditButton.module.css'
 
-const EditButton = () => {
+const EditButton = (props) => {
+
+    // reicht nur eine Weiterleitung zur Add-Transaktion? Wie schaffen wir dass die derzeitigen Eingaben schon in den Feldern sind? Fetch muss wahrscheinlich auch angepasst/erweitert werden (Methode für updaten eines Datensatzes)
+    const edit = () => {
+        { props.nav('/addtransaction') }
+    }
+
     return (
-        <button className={styles.buttonStyle}>Edit</button>
+        <button onClick={edit} className={styles.buttonStyle}>Edit</button>
     )
 }
 
