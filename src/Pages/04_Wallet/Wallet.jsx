@@ -6,6 +6,7 @@ import iconAdd from '../../Assets/Symbols/wallet/icon_wallet_add.svg'
 import iconPay from '../../Assets/Symbols/wallet/icon_wallet_pay.svg'
 import iconSend from '../../Assets/Symbols/wallet/icon_wallet_send.svg'
 import FilterButton from '../../Components/Buttons/FilterButton';
+import TransactionList from '../../Components/TransactionList';
 
 const Wallet = () => {
 	return (
@@ -50,13 +51,20 @@ const Wallet = () => {
 
 			</section>
 
-			<div className={styles.home_wrapper}>
-				<h3 className={styles.home_heading}>Transactions History</h3>
-				<FilterButton text={'See all'} />
-			</div>
+			{/* ------------- Transaction History ------------- */}
+			<section>
 
-			{/* Insert Transaction History here */}
+				{/* Headline "Transaction History" */}
+				<article className={styles.home_wrapper}>
+					<h3 className={styles.home_heading}>Transactions History</h3>
+					<FilterButton text={'See all'} />
+				</article>
+				{/* Transaction List */}
+				<TransactionList />
 
+			</section>
+
+			{/* ------------- Navigation ------------- */}
 			<Navigation />
 		</main>
 	);

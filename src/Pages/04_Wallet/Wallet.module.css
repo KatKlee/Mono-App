@@ -92,10 +92,11 @@
 	width: 374px;
 	align-items: center;
 	justify-content: space-between;
-	margin-top: 31px;
+	margin-top: 60px;
 }
 
 .home_heading {
 	text-align: left;
+	margin-block-start: 0em;
 	margin-block-end: 0em;
 }
