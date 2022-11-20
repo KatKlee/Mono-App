@@ -3,7 +3,7 @@ import Image from '../../Assets/Symbols/icon_logout.svg';
 import styles from './LogoutButton.module.css';
 
 const LogoutButton = () => {
-	const nav = useNavigate()
+	const nav = useNavigate();
 
 	/* const logout = () => {
 		localStorage.clear()
