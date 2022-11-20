@@ -63,10 +63,10 @@
 	text-transform: capitalize;
 }
 
-.transactionitem_amountIncome {
+.transactionitem_amount_income {
 	color: #25A969;
 }
 
-.transactionitem_amountExpense {
+.transactionitem_amount_expense {
 	color: #F95B51;
 }

@@ -14,7 +14,8 @@
 	width: 350px;
 	display: flex;
 	justify-content: space-between;
-	margin: 85px 0 38px 0;
+	align-items: center;
+	margin: 80px 0 58px 0;
 }
 
 .headline {
@@ -23,6 +24,7 @@
 	font-weight: 500;
 	font-size: 18px;
 	margin-block-start: 0;
+	margin-block-end: 0;
 }
 
 .container {
@@ -51,7 +53,7 @@
 	margin: 0 auto;
 }
 
-.transactionTypeIncome {
+.transactionType_income {
 	font-family: 'Inter';
 	font-weight: 500;
 	font-size: 14px;
@@ -63,7 +65,7 @@
 	margin-block-end: 0.5em;
 }
 
-.transactionTypeExpense {
+.transactionType_expense {
 	font-family: 'Inter';
 	font-weight: 500;
 	font-size: 14px;
@@ -127,14 +129,28 @@
 	margin-block-end: 0.3em;
 }
 
-.listTransactionTypeIncome {
+.listTransactionType_income {
 	color: #25A969;
 }
 
-.listTransactionTypeExpense {
+.listTransactionType_expense {
 	color: #F95B51;
 }
 
 hr {
-	border: 1px solid #DDDDDD
+	border: 1px solid #DDDDDD;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.8em;
+}
+
+
+.lineTwo {
+	margin-block-start: 2.8em;
+	margin-block-end: 0.8em;
+}
+
+.buttonsContainer {
+	width: 350px;
+	display: flex;
+	justify-content: space-between;
 }

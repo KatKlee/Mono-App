@@ -14,7 +14,8 @@
 	width: 350px;
 	display: flex;
 	justify-content: space-between;
-	margin: 85px 0 38px 0;
+	align-items: center;
+	margin: 80px 0 58px 0;
 }
 
 .headline {
@@ -23,11 +24,12 @@
 	font-weight: 500;
 	font-size: 18px;
 	margin-block-start: 0;
+	margin-block-end: 0;
 }
 
 .walletDetailsSection {
 	width: 414px;
-	height: 731px;
+	/* height: 731px; */
 	background-color: white;
 	display: flex;
 	flex-direction: column;
@@ -83,4 +85,18 @@
 	color: #222222;
 	text-align: center;
 	margin-block-start: 0.6em;
+}
+
+.home_wrapper {
+	display: flex;
+	width: 374px;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 60px;
+}
+
+.home_heading {
+	text-align: left;
+	margin-block-start: 0em;
+	margin-block-end: 0em;
 }
