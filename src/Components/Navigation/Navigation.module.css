@@ -2,7 +2,6 @@
 	height: 81px;
 	width: 92%;
 	display: flex;
-	overflow: hidden;
 	flex-direction: row;
 	align-items: center;
 	gap: 9%;

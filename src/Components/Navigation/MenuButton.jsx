@@ -1,10 +1,11 @@
-import { Link } from 'react-router-dom';
-
+import { NavLink } from 'react-router-dom';
+import styles from './MenuButton.module.css';
 const MenuButton = (props) => {
 	return (
-		<Link to={props.link}>
+		<NavLink className={styles.menubutton} to={props.link}>
 			<img src={props.img} />
-		</Link>
+		</NavLink>
 	);
 };
+
 export default MenuButton;

@@ -1,11 +1,12 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import styles from './SubmenuButton.module.css';
 
 const SubmenuButton = (props) => {
-	return;
-	<Link to={props.link}>
-		<img src={props.img} />
-	</Link>;
+	return (
+		<NavLink className={styles.submenubutton} to={props.link} onClick={props.onClick}>
+			<img className={styles.submenu_img} src={props.img} />
+		</NavLink>
+	);
 };
 
 export default SubmenuButton;

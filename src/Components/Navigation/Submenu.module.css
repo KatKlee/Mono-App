@@ -1,13 +1,17 @@
 .submenu {
-	float: left;
-	overflow: hidden;
+	display: flex;
+	flex-direction: column-reverse;
 }
 
-.submenu a {
-	float: left;
-	font-size: 16px;
-	color: white;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
+.submenu_wrapper {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	bottom: 92px;
+	width: 66px;
+	align-items: center;
+}
+
+.submenu_img {
+	width: 55px !important;
 }
