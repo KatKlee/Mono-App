@@ -4,7 +4,7 @@
 	width: 374px;
 	margin-top: 155px;
 	display: grid;
-	height: 201px;
+	padding-bottom: 17px;
 }
 
 .display_wrapper_top {
@@ -45,6 +45,8 @@
 	letter-spacing: -0.05em;
 	color: #ffffff;
 	margin-top: 18px;
+	margin-bottom: 27px;
+	padding: 0 20px;
 }
 
 .display_text_income,
@@ -80,4 +82,19 @@
 .display_number_income:before,
 .display_number_expenses:before {
 	content: '\$ ';
+}
+
+.display_wrapper {
+	display: flex;
+	width: 374px;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 31px;
+	margin-bottom: 0;
+}
+
+.display_heading {
+	text-align: left;
+	margin-block-start: 0em;
+	margin-block-end: 0em;
 }

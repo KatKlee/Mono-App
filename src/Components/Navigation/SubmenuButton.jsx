@@ -4,7 +4,7 @@ import styles from './SubmenuButton.module.css';
 const SubmenuButton = (props) => {
 	return (
 		<NavLink className={styles.submenubutton} to={props.link} onClick={props.onClick}>
-			<img className={styles.submenu_img} src={props.img} />
+			<img src={props.img} />
 		</NavLink>
 	);
 };

@@ -14,8 +14,8 @@ const Submenu = (props) => {
 				<SubmenuButton img={Icon_Add} onClick={() => setToggle(!toggle)} className={styles.submenu} />
 				{toggle && (
 					<div className={styles.submenu_wrapper}>
-						<MenuButton img={Icon_addIncome} link={'/addtransaction'} />
-						<MenuButton img={Icon_addExpense} link={'/addtransaction'} />
+						<MenuButton className={styles.submenu_img} img={Icon_addIncome} link={'/addtransaction'} />
+						<MenuButton className={styles.submenu_img} img={Icon_addExpense} link={'/addtransaction'} />
 					</div>
 				)}
 			</section>

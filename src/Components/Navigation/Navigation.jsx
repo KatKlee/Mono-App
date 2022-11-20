@@ -4,7 +4,6 @@ import Icon_Home from '../../Assets/Symbols/icon_home.svg';
 import Icon_Statistics from '../../Assets/Symbols/icon_statistics.svg';
 import Icon_Wallet from '../../Assets/Symbols/icon_wallet.svg';
 import Icon_Profile from '../../Assets/Symbols/icon_profile.svg';
-
 import styles from './Navigation.module.css';
 
 const Navigation = () => {
