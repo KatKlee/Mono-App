@@ -11,7 +11,7 @@ const TransactionList = () => {
 		// declaring async data fetching function
 		const fetchTransactions = async () => {
 			// get the data from the database, checking token beforehand
-			const transactionData = await fetch('http://localhost:7777/transactions', {
+			const transactionData = await fetch('http://localhost:7777/transactions/', {
 				headers: {
 					'authentication': 'Bearer ' + localStorage.getItem('token')
 				}
