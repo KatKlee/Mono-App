@@ -18,7 +18,7 @@ const TransactionList = () => {
 			})
 			const data = await transactionData.json()
 			console.log('data', data)
-			setTransactions(data)
+			setTransactions(data.data)
 		}
 		fetchTransactions()
 	}, [])
