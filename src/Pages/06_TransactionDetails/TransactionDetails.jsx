@@ -36,7 +36,6 @@ const TransactionDetails = () => {
 				<BackButton />
 				<h3 className={styles.headline}>Transaction Details</h3>
 				<LogoutButton />
-				{/* <BackButton /> */} {/* Insert Logout Button instead */}
 			</section>
 
 			{/* Transaction Details */}

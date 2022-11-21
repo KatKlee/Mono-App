@@ -60,7 +60,7 @@ const RegisterForm = (props) => {
 					<label className={styles.label} htmlFor="password">PASSWORD</label>
 					<input onChange={(e) => setPassword(e.target.value)} className={styles.inputfield} type="password" name="password" id="password" value={password} placeholder='Password' />
 				</div>
-				<Upload onchange={(e) => setFile(e.target.files[0])} />
+				<Upload onchange={(e) => setFile(e.target.files[0])} label={'PROFILE PICTURE (jpg/png max. 10MB)'} />
 			</article>
 			<Button onclick={registerUser} text={'Sign Up'} />
 		</section>
