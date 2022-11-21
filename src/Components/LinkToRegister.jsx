@@ -1,8 +1,8 @@
 import styles from './LinkToRegister.module.css'
 
-const LinkToRegister = () => {
+const LinkToRegister = (props) => {
 	return (
-		<p className={styles.text}>Don't have an Account yet? <a className={styles.linkStyle} href="">Sign Up</a></p>
+		<p className={styles.text}>Don't have an Account yet? <button onClick={() => props.setscreen(2)} className={styles.linkStyle} >Sign Up</button></p>
 		/* {action === "login" && <Login/>}
 const [action, setAction] = useState("login") */
 	)
