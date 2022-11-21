@@ -5,25 +5,25 @@ import SignUp from '../../Components/SignUp';
 import styles from './OnBoarding.module.css';
 
 const OnBoarding = () => {
-	const [screen, setScreen] = useState(0)
-	const [component, setComponent] = useState(<OnboardingStart />)
+	const [screen, setScreen] = useState(0);
+	const [component, setComponent] = useState(<OnboardingStart />);
 
 	useEffect(() => {
 		switch (screen) {
-			case 0: setComponent(<OnboardingStart setscreen={setScreen} />)
-				break
-			case 1: setComponent(<Login setscreen={setScreen} />)
-				break
-			case 2: setComponent(<SignUp setscreen={setScreen} />)
-				break
-			default: setComponent(<OnboardingStart setscreen={setScreen} />)
+			case 0:
+				setComponent(<OnboardingStart setscreen={setScreen} />);
+				break;
+			case 1:
+				setComponent(<Login setscreen={setScreen} />);
+				break;
+			case 2:
+				setComponent(<SignUp setscreen={setScreen} />);
+				break;
+			default:
+				setComponent(<OnboardingStart setscreen={setScreen} />);
 		}
-	}, [screen])
-	return (
-		<>
-			{component}
-		</>
-	)
-}
+	}, [screen]);
+	return <>{component}</>;
+};
 
-export default OnBoarding
+export default OnBoarding;

@@ -43,14 +43,14 @@ const Display = () => {
 									<img className={styles.display_icon_income} src={Income_Icon} alt="" />
 									Income
 								</p>
-								<p className={styles.display_number_income}>TODO {/* {finances.total_income} */}</p>
+								<p className={styles.display_number_income}>1,840.00 {/* {finances.total_income} */}</p>
 							</div>
 							<div>
 								<p className={styles.display_text_expenses}>
 									<img className={styles.display_icon_expenses} src={Expenses_Icon} alt="" />
 									Expenses
 								</p>
-								<p className={styles.display_number_expenses}>TODO {/* {finances.total_expense} */}</p>
+								<p className={styles.display_number_expenses}>248.00 {/* {finances.total_expense} */}</p>
 							</div>
 						</div>
 					</>

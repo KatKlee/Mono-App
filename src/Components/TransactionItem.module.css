@@ -64,9 +64,17 @@
 }
 
 .transactionitem_amount_income {
-	color: #25A969;
+	color: #25a969;
+}
+
+.transactionitem_amount_income:before {
+	content: '+';
 }
 
 .transactionitem_amount_expense {
-	color: #F95B51;
+	color: #f95b51;
+}
+
+.transactionitem_amount_expense:before {
+	content: '-';
 }

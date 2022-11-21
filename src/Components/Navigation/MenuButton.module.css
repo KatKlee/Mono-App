@@ -1,14 +1,19 @@
-/* .menubutton {
-	filter: contrast(13%) brightness(118%);
-	
-	invert(80%)
-	sepia(79%) 
-	saturate(2476%) 
-	hue-rotate(86deg)
-	brightness(118%) 
-	contrast(119%)
-} */
+.menubutton {
+	transition: all 0.1s ease-in-out;
+	transform-origin: 50% 50%;
+	filter: opacity(0.5);
+	border-top: 4px solid #ffffff;
+	/* border-bottom: 2px solid #ffffff; */
+	padding: 6px 9px;
+	width: auto;
+}
 
-/* .menubutton:active,
+.menubutton:active,
 .menubutton:hover {
-} */
+	transform: scale(1.2);
+	filter: opacity(1);
+	border-radius: 50%;
+	padding: 6px 9px;
+	border-top: 4px solid #d0e6e4;
+	/* border-bottom: 2px solid #2b47fc; */
+}
