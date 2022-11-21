@@ -3,7 +3,7 @@ import Button from '../Buttons/Button';
 import Upload from '../Upload';
 import styles from './RegisterForm.module.css';
 
-const RegisterForm = () => {
+const RegisterForm = (props) => {
 	const [fullname, setFullname] = useState('')
 	const [email, setEmail] = useState('')
 	const [password, setPassword] = useState('')
@@ -40,18 +40,9 @@ const RegisterForm = () => {
 			body: JSON.stringify(user)
 		})
 
-		const data = await response.json()
-		if (data.state) {
-			setFullname('')
-			setEmail('')
-			setPassword('')
-			setImgBase64('')
+		if (response.ok) {
+			props.setscreen(1)
 		}
-		console.log(data)
-		console.log(fullname)
-		console.log(email)
-		console.log(password)
-		console.log(imgBase64)
 	}
 
 	return (

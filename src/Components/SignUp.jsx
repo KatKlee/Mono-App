@@ -6,7 +6,7 @@ const SignUp = (props) => {
     return (
         <main className={styles.main}>
             <h2 className={styles.headline}>Sign Up</h2>
-            <RegisterForm />
+            <RegisterForm setscreen={props.setscreen} />
             <LinkToLogin setscreen={props.setscreen} />
         </main>
     )
