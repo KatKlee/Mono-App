@@ -1,22 +1,26 @@
 .style {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 20px;
-    margin: 0 auto;
-    gap: 10px;
-    width: 358px;
-    height: 64px;
-    top: 745px;
-    background: linear-gradient(180deg, #8898FF -17.19%, #2B47FC 123.44%);
-    border-radius: 40px;
-    border-style: none;
-    font-family: 'Inter';
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 38px;
-    color: #FFFFFF;
-    text-align: center;
-    text-transform: capitalize;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 10px 20px;
+	margin: 0 auto;
+	gap: 10px;
+	width: 358px;
+	height: 64px;
+	top: 745px;
+	background: linear-gradient(180deg, #8898ff -17.19%, #2b47fc 123.44%);
+	border-radius: 40px;
+	border-style: none;
+	font-family: 'Inter';
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 38px;
+	color: #ffffff;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+.style:hover {
+	filter: invert(100%);
 }

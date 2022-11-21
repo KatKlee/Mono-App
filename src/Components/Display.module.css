@@ -32,6 +32,11 @@
 	cursor: pointer;
 }
 
+.display_text_total:hover {
+	background: none;
+	filter: invert(0);
+}
+
 .display_text_total:after {
 	content: url('../Assets/Symbols/updownbutton.png');
 	color: #ffffff;
@@ -88,7 +93,7 @@
 	width: 374px;
 	align-items: center;
 	justify-content: space-between;
-	margin-top: 31px;
+	margin-top: 85px;
 	margin-bottom: 0;
 }
 

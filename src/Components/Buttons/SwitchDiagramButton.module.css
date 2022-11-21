@@ -1,4 +1,30 @@
-.switchButtonContainer{
-    display: flex;
-    justify-content: space-around;
+.switchButtonContainer {
+	display: flex;
+	justify-content: space-between;
+}
+
+.diagrambutton {
+	width: 70px;
+	height: 37px;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 16px;
+	color: #666666;
+	background-color: transparent;
+	border: none;
+	margin: 10px;
+	font-weight: 400;
+	text-align: center;
+	transition: all 0.1s ease-in-out;
+	transform-origin: 50% 50%;
+	cursor: pointer;
+}
+
+.diagrambutton:active,
+.diagrambutton:hover {
+	transform: scale(1.1);
+	padding: 10px;
+	background: #667bff;
+	border-radius: 10px;
+	color: #ffffff;
 }

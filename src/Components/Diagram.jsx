@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import ReactDOM from 'react-dom';
 import { Line } from '@ant-design/plots';
 import SwitchDiagramButton from './Buttons/SwitchDiagramButton';
 
-const DemoLine = () => {
+const Diagram = () => {
 	const [data1, setData1] = useState([]);
 	const [diagramState, setDiagramState] = useState('Month');
 
@@ -108,4 +107,4 @@ const DemoLine = () => {
 	);
 };
 
-export default DemoLine;
+export default Diagram;

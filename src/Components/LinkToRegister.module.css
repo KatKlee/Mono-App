@@ -1,15 +1,17 @@
 .text {
-    font-family: 'Inter';
-    font-weight: 400;
-    font-size: 14px;
-    text-align: center;
-    color: #444444;
-    line-height: 16.94px;
-    margin-block-start: 1.4em;
+	font-family: 'Inter';
+	font-weight: 400;
+	font-size: 14px;
+	text-align: center;
+	color: #444444;
+	line-height: 16.94px;
+	margin-block-start: 1.4em;
 }
 
 .linkStyle {
-    font-weight: 500;
-    color: #2B47FC;
-    text-decoration: none;
+	font-weight: 500;
+	color: #2b47fc;
+	text-decoration: none;
+	background: none;
+	border: none;
 }
