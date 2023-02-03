@@ -24,3 +24,5 @@ To-Do:
 – Backend beenden  
 – Ausgabe der Statistiken  
 – App-Deployment
+
+Das BACKEND für dieses Projekt: >> Link des Github <<
