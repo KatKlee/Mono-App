@@ -1,4 +1,4 @@
-Mono App
+Mono App – DAS FRONTEND
 
 Deine Finanzen immer im Blick: Eine Finanz-App – dein digitales Haushaltsbuch – für dein Smartphone, mit der du stets den Überblick über deine Finanzen behalten kannst.
 
