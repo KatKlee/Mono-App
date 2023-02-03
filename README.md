@@ -25,4 +25,4 @@ To-Do:
 – Ausgabe der Statistiken  
 – App-Deployment
 
-Das BACKEND für dieses Projekt: >> Link des Github <<
+DAS BACKEND für dieses Projekt: https://github.com/KatKlee/Mono-App-Server
