@@ -20,7 +20,7 @@ Unser Team entwickelt die Mono App nach einem gegebenen Design mit den Technolog
 + Routen
 + utilities
 
-To-Do:
-– Backend beenden
-– Ausgabe der Statistiken
+To-Do:  
+– Backend beenden  
+– Ausgabe der Statistiken  
 – App-Deployment
